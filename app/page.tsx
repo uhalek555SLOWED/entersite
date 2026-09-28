@@ -3,7 +3,7 @@ export default function Home() {
     <main>
       <header className="header">
         <a className="logo" href="#">
-          ETERNITY<span>GAMES</span>
+          ETERNITY <span>GAMES</span>
         </a>
 
         <nav>
