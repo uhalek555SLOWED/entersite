@@ -42,7 +42,12 @@ export default function AuthPage() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          style={{ display: "block", width: "100%", padding: "12px", margin: "10px 0" }}
+          style={{
+            display: "block",
+            width: "100%",
+            padding: "12px",
+            margin: "10px 0",
+          }}
         />
 
         <input
@@ -52,7 +57,12 @@ export default function AuthPage() {
           onChange={(e) => setPassword(e.target.value)}
           required
           minLength={6}
-          style={{ display: "block", width: "100%", padding: "12px", margin: "10px 0" }}
+          style={{
+            display: "block",
+            width: "100%",
+            padding: "12px",
+            margin: "10px 0",
+          }}
         />
 
         <button type="submit">
